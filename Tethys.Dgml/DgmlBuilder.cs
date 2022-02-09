@@ -20,7 +20,6 @@ namespace Tethys.Dgml
     using System.Text;
     using System.Xml;
 
-
     /// <summary>
     /// Build a DGML graph.
     /// </summary>
