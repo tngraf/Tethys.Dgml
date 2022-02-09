@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" GraphDirection="LeftToRight" Background="White" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="A" Label="Node A" Category="Blue" />
+    <Node Id="B" Label="Node B" Category="Green" />
+    <Node Id="C" Label="Node C" Category="Red" />
+    <Node Id="D" Label="Node D" />
+  </Nodes>
+  <Categories>
+    <Category Id="Blue" Background="#0000FF" />
+    <Category Id="Green" Background="#00FF00" />
+    <Category Id="Red" Background="#FF0000" />
+  </Categories>
+  <Links>
+    <Link Source="A" Target="B" />
+    <Link Source="A" Target="C" />
+    <Link Source="C" Target="D" />
+  </Links>
+</DirectedGraph>

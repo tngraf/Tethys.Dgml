@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" GraphDirection="LeftToRight" Background="White" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="A" Label="A" />
+    <Node Id="B" Label="B" />
+  </Nodes>
+  <Categories />
+  <Links>
+    <Link Source="A" Target="B" />
+  </Links>
+</DirectedGraph>
