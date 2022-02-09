@@ -8,6 +8,7 @@ This small library offers a basic DGML support for .Net.
 
 ## Project Build Status
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/yqtxri7l6td84nxm?svg=true)](https://ci.appveyor.com/project/tngraf/tethys-dgml)
 
 
 ## Get Package
