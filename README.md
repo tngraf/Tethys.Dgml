@@ -81,7 +81,8 @@ builder.Links.Add(new Link("C", "D"));
 builder.WriteToFile("CategoriesExample.dgml");
 ```
 
-The resulting image will look liek this:
+The resulting image will look like this:
+
 ![CategoriesExample.png](DemoFiles/CategoriesExample.png)
 
 
