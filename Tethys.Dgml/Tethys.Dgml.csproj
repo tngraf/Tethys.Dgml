@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
       <CodeAnalysisRuleSet>..\Application.ruleset</CodeAnalysisRuleSet>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <Description>Directed Graph Markup Language (DGML) support for .Net</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
