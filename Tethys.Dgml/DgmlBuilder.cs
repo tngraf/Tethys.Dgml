@@ -12,8 +12,6 @@
 // SPDX-License-Identifier: Apache-2.0
 // -------------------------------------------------------------------------------
 
-//// See also https://github.com/merijndejonge/DgmlBuilder/tree/master/src/DgmlBuilder/Model
-
 namespace Tethys.Dgml
 {
     using System.Collections.Generic;

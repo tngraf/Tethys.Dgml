@@ -1,5 +1,5 @@
 # =========================================
-# Build NuGet Packages for Tethys.Logging
+# Build NuGet Packages for Tethys.Dgml
 #
 # SPDX-License-Identifier: Apache-2.0
 # SPDX-FileCopyrightText: 2021-2022 T. Graf
