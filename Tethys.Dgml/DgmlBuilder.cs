@@ -156,6 +156,10 @@ namespace Tethys.Dgml
                 writer.WriteStartElement("Link");
                 writer.WriteAttributeString("Source", link.Source);
                 writer.WriteAttributeString("Target", link.Target);
+                if (!string.IsNullOrEmpty(link.Label))
+                {
+                    writer.WriteAttributeString("Label", link.Label);
+                } // if
                 if (link.Attributes.ContainsKey(Link.IsOptionalAttributeName))
                 {
                     if (link.Attributes[Link.IsOptionalAttributeName].ToUpperInvariant() == "TRUE")
