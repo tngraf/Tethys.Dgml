@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)
 [![Build status](https://ci.appveyor.com/api/projects/status/yqtxri7l6td84nxm?svg=true)](https://ci.appveyor.com/project/tngraf/tethys-dgml)
-[![Nuget](https://img.shields.io/badge/nuget-1.1.0-brightgreen.svg)](https://www.nuget.org/packages/Tethys.Dgml/1.1.0)
+[![Nuget](https://img.shields.io/badge/nuget-1.0.0-brightgreen.svg)](https://www.nuget.org/packages/Tethys.Dgml/1.0.0)
 [![REUSE status](https://api.reuse.software/badge/git.fsfe.org/reuse/api)](https://api.reuse.software/info/git.fsfe.org/reuse/api)
 
 [Directed Graph Markup Language (DGML)](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/modeling/directed-graph-markup-language-dgml-reference.md)
@@ -16,7 +16,7 @@ This small library offers a basic DGML support for .Net.
 
 ## Get Package
 
-You can get Tethys.Dgml by grabbing the latest NuGet packages from [here](https://www.nuget.org/packages/Tethys.Xml/1.1.0).
+You can get Tethys.Dgml by grabbing the latest NuGet packages from [here](https://www.nuget.org/packages/Tethys.Dgml/1.0.0).
 
 ## How to use Tethys.Dgml
 
