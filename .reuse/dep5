@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Tethys.Dgml
+Source: https://github.com/tngraf/Tethys.Dgml/
+Disclaimer: <text> This file is offered as-is, without any warranty. </text>
+
+Files: DemoFiles/*
+Copyright: Thomas Graf
+License: Apache-2.0
