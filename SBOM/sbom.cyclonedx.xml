@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:c0e49f80-453e-4e75-913a-4fde859c5776" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>CycloneDX module for .NET</name>
+        <version>2.7.0.0</version>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="Tethys.Dgml@1.0.0">
+      <name>Tethys.Dgml</name>
+      <version>1.0.0</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.NETCore.Platforms@1.1.0">
+      <publisher>Microsoft</publisher>
+      <name>Microsoft.NETCore.Platforms</name>
+      <version>1.1.0</version>
+      <description>Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">6BF892C274596FE2C7164E3D8503B24E187F64D0B7BEC6D9B05EB95F04086FCEB7A85EA6B2685D42DC465C52F6F0E6F636C0B3FDDAC48F6F0125DFD83E92D106</hash>
+      </hashes>
+      <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.NETCore.Platforms@1.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/NETStandard.Library@2.0.3">
+      <publisher>Microsoft</publisher>
+      <name>NETStandard.Library</name>
+      <version>2.0.3</version>
+      <description>A set of standard .NET APIs that are prescribed to be used and supported together. 
+18a36291e48808fa7ef2d00a764ceb1ec95645a5 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">B2DE3B3E8B19487AE3102763788CD941BCE2BD804916FE8FDA7BF8723DB2A5D236D380CEFAF67B979ADA18C897E1E5CC279DD17CE220FBFB380C7559E7836ED8</hash>
+      </hashes>
+      <copyright>.NET Foundation and Contributors</copyright>
+      <purl>pkg:nuget/NETStandard.Library@2.0.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:nuget/Microsoft.NETCore.Platforms@1.1.0" />
+    <dependency ref="pkg:nuget/NETStandard.Library@2.0.3">
+      <dependency ref="pkg:nuget/Microsoft.NETCore.Platforms@1.1.0" />
+    </dependency>
+    <dependency ref="Tethys.Dgml@1.0.0">
+    </dependency>
+  </dependencies>
+</bom>

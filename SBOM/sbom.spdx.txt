@@ -1,0 +1,195 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: Tethys.Dgml
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-9563037c-714b-4cc9-997a-13724fde6d6b
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-1.1.2
+Created: 2023-03-05T15:41:58Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ea92463be518fdbbf4aae3ab936c4850
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ec420b9282284fd7c89d30834245ef80
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1b2bc3f93c541702a9a750ce2b80d56e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f2304f187487512c3e426e3a1cb56505
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ac35e95a2d15818473e51b7e5f080f6d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-20cf2798d0a1bbb4b51d38f4e5b096d0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9af36d93cf20787ba0f5d921d48ea2d3
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-220c86e8fa0676ef579a2819170559b7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-802683035a4f160ac6b639797ddffc9a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2859083c6e8c800904fe21deb465f358
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7e4bf5fefbaf4367de631433bc7cd08f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-eafe9dce5734e330f6638ee6459b6053
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-37b7e75051c6700a97dbab2bf7a08f51
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c6533f937f8696ccf5a2113a4af1f62f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f652eb7b28c5306a2695bbfa3c73be39
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2264ddf518564afa2b5d495bf3ba4d3a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1f70420ff53e0ff37be9ad8a3d476772
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a6c2121149d7b0934f31329f30e273f5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bda540ba8f23fef929e5793526867b77
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d83b68afa5b68b2866d268ddceedd80a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-8e06d8b3a7d2e912afe10fccc5cc2a78
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-36c4bb6730b02716f85321fc8233fec7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-87decbb965c3ccefa1b68c6a2a9cf9ad
+
+FileName: ./.editorconfig
+SPDXID: SPDXRef-ea92463be518fdbbf4aae3ab936c4850
+FileChecksum: SHA1: 759d8f2531f234c20db87ffac8392a4de7744f4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-ec420b9282284fd7c89d30834245ef80
+FileChecksum: SHA1: 8372df102e787daa8db9b30217bdb126309ff509
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./Application.ruleset
+SPDXID: SPDXRef-1b2bc3f93c541702a9a750ce2b80d56e
+FileChecksum: SHA1: 340a00522761872500b5a98e07cdfbf38716db61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./BuildPackages.ps1
+SPDXID: SPDXRef-f2304f187487512c3e426e3a1cb56505
+FileChecksum: SHA1: 236013d8ebc9d0160ce945b2dcffbdd80fec811b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: 2021-2022 T. Graf</text>
+
+FileName: ./ChangeLog.md
+SPDXID: SPDXRef-ac35e95a2d15818473e51b7e5f080f6d
+FileChecksum: SHA1: bfe28861f156f2bfd4a3a930ddd6eae72320bde5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./DemoFiles\CategoriesExample.dgml
+SPDXID: SPDXRef-20cf2798d0a1bbb4b51d38f4e5b096d0
+FileChecksum: SHA1: 0e85e8bf043c9421a5e3c7708462d82a1f18d16e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Thomas Graf</text>
+
+FileName: ./DemoFiles\CategoriesExample.png
+SPDXID: SPDXRef-9af36d93cf20787ba0f5d921d48ea2d3
+FileChecksum: SHA1: e20bc964107b03cb46df5b19eb249d4f5099dc83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Thomas Graf</text>
+
+FileName: ./DemoFiles\VerySimpleExample.dgml
+SPDXID: SPDXRef-220c86e8fa0676ef579a2819170559b7
+FileChecksum: SHA1: b201178ca47a0e41067581bc01f4b3409bf3969d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Thomas Graf</text>
+
+FileName: ./DemoFiles\VerySimpleExample.png
+SPDXID: SPDXRef-802683035a4f160ac6b639797ddffc9a
+FileChecksum: SHA1: 1b319072e61e207b1a6c8e8c77f7a37bc01cb5dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Thomas Graf</text>
+
+FileName: ./Directory.Build.props
+SPDXID: SPDXRef-2859083c6e8c800904fe21deb465f358
+FileChecksum: SHA1: 7c88c310a468e88da6bec8d5d53e66ab558c6a31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright ® 2022 T. Graf</Copyright>
+SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./README.md
+SPDXID: SPDXRef-7e4bf5fefbaf4367de631433bc7cd08f
+FileChecksum: SHA1: 28bdc8b9f2eeb73ae13dc96e9d188f5e3ea3e1c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./Tethys.Dgml.Demo\Program.cs
+SPDXID: SPDXRef-eafe9dce5734e330f6638ee6459b6053
+FileChecksum: SHA1: dfff3ccf1fc126e5020150045743f1bd411703a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2022 Thomas Graf</text>
+
+FileName: ./Tethys.Dgml.Demo\Tethys.Dgml.Demo.csproj
+SPDXID: SPDXRef-37b7e75051c6700a97dbab2bf7a08f51
+FileChecksum: SHA1: cbb082d2d106acdcf47b0897c3830fdfb9ccdc1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./Tethys.Dgml.sln
+SPDXID: SPDXRef-c6533f937f8696ccf5a2113a4af1f62f
+FileChecksum: SHA1: 3a893d39d1d17947f68c11ee66b20e2895b08f76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./Tethys.Dgml\Category.cs
+SPDXID: SPDXRef-f652eb7b28c5306a2695bbfa3c73be39
+FileChecksum: SHA1: 1ef42f7eaedf8020a75422f7579330c33b67e52c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2016-2021 Thomas Graf</text>
+
+FileName: ./Tethys.Dgml\DgmlBuilder.cs
+SPDXID: SPDXRef-2264ddf518564afa2b5d495bf3ba4d3a
+FileChecksum: SHA1: 52c0f3cc79405af576f0c867e15db91a12321b78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2016-2021 Thomas Graf</text>
+
+FileName: ./Tethys.Dgml\Link.cs
+SPDXID: SPDXRef-1f70420ff53e0ff37be9ad8a3d476772
+FileChecksum: SHA1: 61481ffa01cdaba31e337236cb226c441ff6d939
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2016-2021 Thomas Graf</text>
+
+FileName: ./Tethys.Dgml\Node.cs
+SPDXID: SPDXRef-a6c2121149d7b0934f31329f30e273f5
+FileChecksum: SHA1: 926c01d300bad7e7ce1506a716e1038c0105c9bb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2016-2021 Thomas Graf</text>
+
+FileName: ./Tethys.Dgml\OutputSettings.cs
+SPDXID: SPDXRef-bda540ba8f23fef929e5793526867b77
+FileChecksum: SHA1: 06309a7ec6cdd6e5a5a6da610167b9867118d7d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright (C) 2016-2021 Thomas Graf</text>
+
+FileName: ./Tethys.Dgml\Tethys.Dgml.csproj
+SPDXID: SPDXRef-d83b68afa5b68b2866d268ddceedd80a
+FileChecksum: SHA1: b1c8900dc051083af202a79d8be2b3ff14660df6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./appveyor.yml
+SPDXID: SPDXRef-8e06d8b3a7d2e912afe10fccc5cc2a78
+FileChecksum: SHA1: eed5b5c015532325e2eee58b72bc42421891bec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./build.ps1
+SPDXID: SPDXRef-36c4bb6730b02716f85321fc8233fec7
+FileChecksum: SHA1: 9e71e65ac3fe5585a2a9c1d74c58ef201e3c72b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
+
+FileName: ./clean.ps1
+SPDXID: SPDXRef-87decbb965c3ccefa1b68c6a2a9cf9ad
+FileChecksum: SHA1: 3899bb76aead751bc4d89fe7f45c0d44bcb922d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>SPDX-FileCopyrightText: (c) 2022-2023 T. Graf</text>
