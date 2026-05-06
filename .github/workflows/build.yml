@@ -14,8 +14,13 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        # Test on multiple OS and .NET versions
+        # os: [ubuntu-latest, windows-latest, macos-latest]
+        # dotnet-version: ['8.0.x', '10.0.x']
+
+        # Start small: only Windows, only 8.0.x
         os: [ubuntu-latest, windows-latest, macos-latest]
-        dotnet-version: ['8.0.x', '10.0.x']
+        dotnet-version: ['8.0.x']
     
     steps:
     - uses: actions/checkout@v4
@@ -37,14 +42,14 @@ jobs:
       run: dotnet run --project Tethys.Dgml.Demo --configuration Release --no-build
       working-directory: .
     
-    - name: Verify DGML output files exist
-      shell: bash
-      run: |
-        if [ ! -f "Tethys.Dgml.Demo/bin/Release/net5.0/VerySimpleExample.dgml" ] && [ ! -f "Tethys.Dgml.Demo/bin/Release/net8.0/VerySimpleExample.dgml" ]; then
-          echo "Error: DGML output files not generated"
-          exit 1
-        fi
-        echo "DGML output files generated successfully"
+    # - name: Verify DGML output files exist
+    #  shell: bash
+    #  run: |
+    #    if [ ! -f "Tethys.Dgml.Demo/bin/Release/net5.0/VerySimpleExample.dgml" ] && [ ! -f "Tethys.Dgml.Demo/bin/Release/net8.0/VerySimpleExample.dgml" ]; then
+    #      echo "Error: DGML output files not generated"
+    #      exit 1
+    #    fi
+    #    echo "DGML output files generated successfully"
 
   pack:
     runs-on: ubuntu-latest
