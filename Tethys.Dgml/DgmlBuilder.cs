@@ -160,6 +160,7 @@ namespace Tethys.Dgml
                 {
                     writer.WriteAttributeString("Label", link.Label);
                 } // if
+
                 if (link.Attributes.ContainsKey(Link.IsOptionalAttributeName))
                 {
                     if (link.Attributes[Link.IsOptionalAttributeName].ToUpperInvariant() == "TRUE")
